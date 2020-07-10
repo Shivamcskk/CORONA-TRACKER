@@ -1,10 +1,5 @@
 body {
-  background: url("https://www.webdesign.org/img_articles/22549/screenshot.jpg")
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: rgb(250, 250, 250);
 }
 .container {
   display: flex;
@@ -15,6 +10,14 @@ body {
 .image {
   width: 370px;
   margin: 50px;
+}
+.header {
+  background-color: black;
+}
+.h {
+  color: blanchedalmond;
+  font-size: 125%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 770px) {
